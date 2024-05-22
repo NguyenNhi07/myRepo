@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="container1">
+                <div class="left-content">
+                    <div class="dashboard">
+                        <div class="header-dash">
+                            <img src="img/setting 1.png" alt="" class="icon-dash">
+                            <h1 class="h1-dashboard">Dashboard</h1>
+                        </div>
+
+                        <div class="seclect-dash">
+                            <div class="departments">
+                                <div class="dep-title">
+                                    <div class="icon-dep">
+                                        <img src="img/key-square.png" alt="" class="icon-departments">
+                                    </div>
+                                    <p class="title-dep">Departments</p>
+                                </div>
+                            </div>
+
+                            <div class="users">
+                                <div class="user-title">
+                                    <div class="icon-user">
+                                        <img src="img/user-square 1.png" alt="" class="icon-user">
+                                    </div>
+                                    <p class="title-user">User</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-content">
+                    <div class="content">
+                        <div class="content-right">
+                            <div class="heading-right-content">
+                                <div class="heading">
+                                    <div class="all-department">
+                                        <div class="header-department">
+                                            <h1 class="department">All Department</h1>
+                                        </div>
+                                    </div>
+                                    <div class="seinput">
+                                        <div class="input-search">
+                                            <div class="icon-search">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                                </svg>
+                                            </div>
+                                            <input type="text" class="search" placeholder="Search">
+                                            </input>
+                                        </div>
+                                    </div>
+                                    <div class="heading-department">
+                                        <div class="dep-head">
+                                            <div class="name">
+                                                <p class="name-haeding">Name</p>
+                                            </div>
+                                            <div class="action">
+                                                <p class="action-haeding">Action</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="select-1" class="select-list">
+                            </div>
+
+                            <div class="footer">
+                                <div class="btn-select-page">
+                                    <button class="before-page">
+                                        <div class="btn-content">
+                                            <p class="content-btn-page"><</p>
+                                        </div>
+                                    </button>
+
+                                    <div class="btn-page">
+                                        <button class="btn-page-number-1">1</button>
+                                        <button class="btn-page-number">2</button>
+                                        <button class="btn-page-number">3</button>
+                                        <button class="btn-page-number">4</button>
+                                        <button class="btn-page-number btn-vv">...</button>
+                                        <button class="btn-page-number-40">
+                                            <p class="content-page-40">40</p>
+                                        </button>
+                                    </div>
+
+                                    <button class="next-page">
+                                        <div class="btn-content">
+                                            <p class="content-btn-page">></p>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+        <div id="window1">
+            <div class="window">
+                <div class="delete-window">
+                    <div class="windowdel">
+                        <div class="content-window">
+                            <div class="title">Bạn chắc chắn muốn xoá nội dung này</div>
+                            <div class="button-window">
+                                <button class="cancel" onclick="closeWindow()">Cancel</button>
+                                <button class="ok" onclick="deleteItem()">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="off-window">
+                        <button class="off" onclick="closeWindow()">X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
